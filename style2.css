@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* gallery start */
+#gallery{
+    background: url(./img/offer-background.jpg) center center/cover no-repeat;
+    padding: 8rem 0 6rem;
+}
+
+#gallery h2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+#gallery p{
+    color: #b4b1b1;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#gallery .img-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#gallery .img-gallery img{
+    width: 240px;
+    height: 280px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+#gallery .img-gallery img:hover{
+    opacity: 1;
+}
+
+
+
+#gallery .btn{
+    display: block;
+    margin: 20px auto 0;
+    background: #383848;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#gallery .btn:hover{
+    background: rgb(76, 82, 95);
+}
+/* footer start */
+#footer{
+    background: #3f3f3f;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 15px;
+}
+/* footer end */
